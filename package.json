@@ -1,0 +1,35 @@
+{
+  "name": "npm_studies",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "This project is establish to get practical experience in package management and web development tools(front-end).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "learning_npm"
+  },
+  "author": "D-Murenzi",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.13.0",
+    "prettier": "^3.4.2",
+    "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.62.7",
+    "plotly.js-dist-min": "^2.35.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
